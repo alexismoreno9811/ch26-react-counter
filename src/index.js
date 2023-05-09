@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
-import P from './components/pharagraphLink/PharagraphLink';
+import P from './components/paragraphLink/ParagraphLink';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
