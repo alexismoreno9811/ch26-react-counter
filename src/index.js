@@ -7,8 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <p href="http">texto</p> */}
-    <P href="https://legacy.reactjs.org/" color="red"/>
-    <P href="https://youtube.com" color="green"/>
-    <P href="https://linkedin.com" color="purple"/>
+    <P href="https://legacy.reactjs.org/" color="red">Página React</P>
+    <P href="https://youtube.com" color="green">Página Youtube</P>
+    <P href="https://linkedin.com" color="purple">Página Linkedin</P>
   </React.StrictMode>
 );
