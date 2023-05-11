@@ -1,5 +1,6 @@
 import React from 'react'
-export const Button = ({ children, setCounter, newValue}) => {
+import ButtonMui from '@mui/material/Button';
+export const Button = ({ children, setCounter, newValue, startIcon}) => {
 
   const handleOnClik = () => {
     setCounter( newValue );
@@ -7,9 +8,7 @@ export const Button = ({ children, setCounter, newValue}) => {
 
   return (
     <>
-      <button style={{ color: "blue" }} onClick={ handleOnClik }>
-        {children}
-      </button>
+      <ButtonMui variant="contained" startIcon={startIcon } onClick={ handleOnClik }> {children}</ButtonMui>
     </>
   );
 };
